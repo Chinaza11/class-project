@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Data Analysis Dashboard</h1>
+	<form action="/verify">
+	
+    <label for="dashboard"> Select from the options: </label> 
+	<select name="dashboard" id="dashboard"> 
+    <option value="sumstat">Sum Stat</option>
+    <option value="plot1">Graph (means) - 1st four variables</option>
+	<option value="plot2">Graph (means) - 2nd four variables</option>
+	<option value="sumstat_year">Sum Stat Year</option>
+	<option value="geo">Map</option>
+	<option value="pred_section_form"> Input data for Predictions</option>
+	<option value="ml_new">View Predictions</option>
+    </select>
+    <p><input type = "submit" value = "Submit" /></p>
+	
+	</form>
+    </div>
+  </body>
+</html>
