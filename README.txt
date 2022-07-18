@@ -11,7 +11,7 @@ handling geographic and image data, web servers, databases and supervised machin
 My project used several independent variables (weed density, crop vigor rating, gall rating, southern blight incidence, soil 
 population density of root-knot nematode at planting, midseason and at the end of the season) to predict the crop fruit 
 yield (target/dependent variable). Aside the machine learning component, my project also incorporated several other 
-components such as database, plotting, summary statistics, data upload and storage platform.
+components such as database, web servers, plotting, summary statistics, data upload and storage platform.
 
 After running the program (project1.py), type 127.0.0.1 on your local browser, this should lead to the homepage where you 
 have three options to select from: 1) add data via manual input 2) add data via a form 3) view dashboard.
